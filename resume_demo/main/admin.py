@@ -10,7 +10,7 @@ from . models import (
     Skill
     )
 
-
+#Esta sección es para el registro del ID y el usuario
 @admin.register(UserProfile)
 class UserProfileAdmin(admin.ModelAdmin):
 	list_display = ('id', 'user')
